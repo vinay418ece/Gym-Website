@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 100%;
+}
+body{
+    background-color: #212121;
+    color: white;
+}
+ nav{
+    background-color: white;
+ }
+
+
+ /* Media-Queries-mobile approach */
+
+ /* mobiles */
+
+ @media(min-width:300px){
+    nav  img{
+        height: 6vh;
+        width: 60px;
+        margin:0.8rem
+        
+        
+    }
+
+    nav div h3{
+        color: black;
+    }
+
+    .flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main .one h4,p{
+        text-align: center;   
+    }
+    .one h4{
+        margin-top: 1rem;
+        padding: 1rem;
+    }
+
+    .one img{
+        height:40vh;
+        width: 12rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    .two{
+        background-color: white;
+        color:#212121;
+         width: 90%; */
+         margin:5vh auto;
+         margin-left: 1.2rem;
+         margin-top: 2rem;
+         border-radius:12px ;
+        
+        
+        
+    }
+
+
+    .two .align{
+        border:none;
+        outline: none;
+        border-bottom:1px solid #212121;
+        font-size: 1rem;
+        padding: 1rem;
+        width: 90%;
+        margin-left: 1rem;
+    }
+
+    .two input[type="radio"],input[type="checkbox"]{
+        margin-right: 1rem;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        margin-left: 1rem;
+        
+    }
+    .submit{
+        background: #212121;
+        font-weight: bolder;
+        font-size:1rem ;
+        margin: 1rem;
+        color: white;
+        padding: 0.5rem;
+        border: none;
+        outline: none;
+        width: 70%;
+        border-radius: 12px;
+    }
+
+    .items h3{
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .images{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .image{
+        background-color: white;
+        border-radius: 12px;
+        margin: 1.5rem;
+        padding: 1rem;
+    }
+
+    #heading{
+        margin: 1rem;
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .strengthen h3{
+        text-align: center;
+        color: #212121;
+        
+        
+    }
+
+    .strengthen {
+        background-color: white;
+        color: #212121;
+        border-radius: 12px;
+        margin: 2rem;
+        margin-left: 2rem;
+        padding: auto;
+        margin-top: 2rem;
+        
+    }
+
+    .strengthen img{
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .cardio h3{
+        text-align: center;
+        margin-top: 1rem;
+        color:#212121;
+       
+    }
+
+    .cardio{
+        background-color: white;
+        border-radius: 12px;
+        margin: 2rem;
+       
+    }
+
+
+    .cardio img{
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+
+ }
+
+
+             /* tablets */
+
+
+ @media(min-width:700px){
+   
+    .flex{
+        font-size: 1.8rem;
+        align-items:center;
+        justify-content:start;
+        padding-left: 5rem;
+        font-size: 1.5rem;
+    }
+   
+    .main .one h4,p{
+    font-size: 1.8rem;
+   }
+    .one img{
+    width:80%;
+    height: 60vh;
+    margin-top: 3rem;
+   }
+   .two{
+    margin: 4rem;
+    width:80%;
+    padding: 1.5rem;
+   }
+
+   .items h3{
+    font-size: 2rem;
+   }
+
+   .image{
+    margin: 3rem;
+   }
+
+   .segments{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    }
+    .strengthen{
+    padding: 3rem;
+    }
+
+    #heading{
+        font-size: 2rem;
+    }
+
+    .segments .strengthen img{
+        width:100%;
+    }
+
+ }
+
+
+
+
+             /* Laptop */
+
+
+ @media(min-width:900px){
+
+    .one h4,p{
+        display: none;
+    }
+    
+
+    
+    
+    .main{
+        display: flex;
+        justify-content: center;
+    }
+
+    .two{
+        padding: auto;
+        height: 45vh;
+        margin: 5rem;
+        margin-top: 3rem;
+    }
+    .one img{
+        height: 20rem;
+        width: 25rem;
+        margin-left: 1rem;
+    }
+    .images{
+        grid-template-columns:repeat(4,1fr);
+    }
+
+    .strengthen{
+        height: 53vh;
+        width:40rem;
+    }
+
+    .strengthen img{
+        height: 29vh;
+    }
+    .cardio{
+        width:35rem;
+    }  
+    
+    .segments{
+        width:100%;
+        gap: 3rem;
+        margin-left: 2rem;
+        
+        
+    }
+    .items h3{
+        font-size: 1.5rem;
+    }
+
+    #heading{
+        font-size:1.5rem;
+    }
+
+}
+
